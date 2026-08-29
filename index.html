@@ -55,7 +55,7 @@ body{
   font-family:"Archivo","Helvetica Neue",Arial,sans-serif;
   font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;
 }
-img{max-width:100%;display:block}
+img{max-width:100%;height:auto;display:block}
 a{color:inherit}
 :focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
 .wrap{max-width:1080px;margin:0 auto;padding:0 28px}
@@ -90,7 +90,7 @@ h1 em{font-style:italic;color:var(--accent)}
 .btn-ghost:hover{background:var(--accent-soft)}
 
 .portrait{border:1px solid var(--rule);background:var(--surface);padding:10px;border-radius:2px;box-shadow:var(--shadow)}
-.portrait img{border-radius:1px}
+.portrait img{width:100%;height:auto;aspect-ratio:1/1;object-fit:cover;object-position:50% 20%;border-radius:1px}
 .portrait figcaption{display:flex;justify-content:space-between;gap:10px;font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);margin-top:10px}
 figure{margin:0}
 
